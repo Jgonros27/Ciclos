@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ciclos Trassierra</title>
+    <link rel="stylesheet" href="../assets/librerias/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../assets/librerias/fontawesome-free-6.4.2-web/css/all.min.css">
+   <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="POST">
+                        <fieldset>
+                            <legend class="text-center header">Ciclos Informática Trassierra</legend>
+
+                            <div class="form-group row">
+                                <label for="cursos" class="col-sm-2 col-form-label">Curso</label>
+                                <div class="col-md-8">
+                                    <select class="form-control" id="cursos" name="cursos">
+                                        <option value="">Seleccione curso ...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="cursos" class="col-sm-2 col-form-label">Módulos</label>
+                                <div class="col-md-8">
+                                    <select class="form-control" id="modulos" name="modulos"></select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" id="cargar" class="btn btn-primary btn-lg">Cargar Alumnos</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container calificaciones">
+        <div class="row">
+
+
+            <div class="table-responsive">
+
+                <table class="myTable table table-bordered" style="width:50%">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Apellidos y Nombre</th>
+                            <th>Calificación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <div class="form-group">
+                    <div class="col-md-12 text-left">
+                        <button type="button" id="grabar" class="btn btn-primary btn-lg">Grabar</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="table-responsive">
+
+                <table class="cal table table-bordered" style="width:10%">
+                    <thead class="thead-light">
+                        <th>Calificación</th>
+                    </thead>
+                    <tr>
+                        <td class="arrastrar">Sob</td>
+                    </tr>
+                    <tr>
+                        <td class="arrastrar">Not</td>
+                    </tr>
+                    <tr>
+                        <td class="arrastrar">B</td>
+                    </tr>
+                    <tr>
+                        <td class="arrastrar">Suf</td>
+                    </tr>
+                    <tr>
+                        <td class="arrastrar">Ins</td>
+                    </tr>
+                    <tr>
+                        <td class="arrastrar">NE</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="../assets/librerias/jquery-3.7.1.min.js"></script>
+    <script src="../assets/librerias/sweetalert2.all.min.js"></script>
+    <script src="../assets/librerias/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <script src="../assets/librerias/crearXMLHTTP.js"></script>
+    <script src="../assets/librerias/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../assets/librerias/jquery-validation/dist/localization/messages_es.min.js"></script>
+    <script src="../assets/librerias/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../assets/axios/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

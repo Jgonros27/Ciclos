@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-ene-2017, 12:44:25
+    Author     : IES TRASSIERRA
+*/
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+
+.calificaciones{
+    display:none;
+}
+
+div.table-responsive{
+    width: fit-content;
+}
+
+.nombre{
+    width: 700px;
+}
